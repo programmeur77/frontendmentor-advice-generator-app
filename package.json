@@ -1,0 +1,24 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "sass --watch style/index.scss style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmeur77/frontendmentor-advice-generator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmeur77/frontendmentor-advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/programmeur77/frontendmentor-advice-generator-app#readme",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
