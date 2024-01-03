@@ -1,2 +1,6 @@
 # Project files and folders
 .prettierrc
+
+# Node files and folders
+package-lock.json
+node_modules
