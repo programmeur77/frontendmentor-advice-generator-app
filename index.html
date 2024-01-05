@@ -22,11 +22,13 @@
         <span class="advice-content__text"></span>
         <span class="advice-content__quote-mark">&rdquo;</span>
       </p>
-      <img
-        src="./images/pattern-divider-desktop.svg"
-        alt="pattern divider"
-        class="advice__separator"
-      />
+      <picture class="advice__separator">
+        <source
+          media="(max-width: 900px)"
+          srcset="./images/pattern-divider-mobile.svg"
+        />
+        <img src="./images/pattern-divider-desktop.svg" alt="pattern divider" />
+      </picture>
       <button class="advice__generate-btn">
         <img
           src="./images/icon-dice.svg"
