@@ -7,12 +7,21 @@
 
 body {
   height: 100dvh;
-  background: hsl(217, 19%, 24%);
+  background: hsl(218, 23%, 16%);
   display: grid;
   place-items: center;
   color: #fff;
   font-family: "Manrope", sans-serif;
   font-size: 28px;
+}
+
+.advice-container {
+  width: fit-content;
+  height: fit-content;
+  background: hsl(217, 19%, 24%);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /*# sourceMappingURL=style.css.map */
