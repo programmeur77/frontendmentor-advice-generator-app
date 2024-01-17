@@ -22,6 +22,6 @@ app.use((req, res, next) => {
 
 app.use('/api/users', userRouter);
 
-app.listen(3000, () => {
+app.listen(process.env.SERVER_PORT, () => {
   console.log('Server listening on port 3000!');
 });
