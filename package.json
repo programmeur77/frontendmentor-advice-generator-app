@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-watch": "sass --watch style/index.scss style/style.css",
-    "postcss-watch": "postcss --watch style/style.css --use autoprefixer -d style/prefixed/",
+    "sass-watch": "sass --watch frontend/style/index.scss frontend/style/style.css",
+    "postcss-watch": "postcss --watch frontend/style/style.css --use autoprefixer -d frontend/style/prefixed/",
     "devStart": "npm-run-all --parallel sass-watch postcss-watch"
   },
   "repository": {
