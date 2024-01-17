@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100dvh;
+  background: hsl(218, 23%, 16%);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.advice-container {
+  width: 40%;
+  height: fit-content;
+  background: hsl(217, 19%, 24%);
+  border-radius: 15px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 1.5rem;
+  position: relative;
+}
+@media screen and (min-width: 360px) and (max-width: 900px) {
+  .advice-container {
+    width: 90%;
+  }
+}
+.advice-container .advice__advice-number {
+  grid-column: 1/3;
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+.advice-container .advice-content {
+  grid-column: 1/3;
+  margin: 0 20px;
+  text-align: center;
+}
+.advice-container .advice__separator {
+  grid-column: 1/3;
+  margin-bottom: 2rem;
+}
+.advice-container .advice__generate-btn {
+  width: fit-content;
+  grid-column: 1/3;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  background: hsl(150, 100%, 66%);
+  position: absolute;
+  bottom: -15%;
+}
+.advice-container .advice__generate-btn:hover {
+  cursor: pointer;
+  background: #85ffc2;
+  filter: drop-shadow(0 0 0.75rem #85ffc2);
+}
+.advice-container .advice__generate-btn:hover > .advice__generate-btn-icon {
+  animation: rotate 0.3s linear;
+}
+
+/*# sourceMappingURL=style.css.map */
